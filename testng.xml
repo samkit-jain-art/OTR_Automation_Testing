@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.otr.Listeners.ListenersClass"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/samkitjain/IdeaProjects/OTR_Automation_Testing"><classes>
+        <class name="com.otr.testcase.DataProviderDemo"><methods><include name="Test"/>
+        </methods></class><class name="com.otr.testcase.LoginTest"><methods>
+        <include name="verifySplashScreen"/></methods>
+    </class></classes></test></suite>
